@@ -1,23 +1,65 @@
 
 
-div.navbar {
-
-
+#header { 
+    width:100%;
+    text-align:center;
 }
-.image{max-width:100%;height:auto}    
-img{vertical-align:middle}
+#gab_hello { 
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #506887; 
+}
+.gab_image {
+    display:inline-block;
+    margin: 0 auto;
+}
+.gab_content { 
+    margin-left:auto;margin-right:auto; display: block; width:100%
+}
+
 a{color:inherit}
-html,body{font-family: 'Roboto', sans-serif;font-size:20px;line-height:1.5}
+html,body{font-family: 'Roboto', sans-serif;font-size:20px;line-height:1.5; }
 html{overflow-x:hidden}
-h1{font-size:70px}
-h2{font-size:40px}
-h3{font-size:30px}
-h4{font-size:20px}
+h1{font-size:70px; color: #1F282D; }
+h2{font-size:40px; color: #1F282D; }
+h3{font-size:30px; color: #1F282D; }
+h4{font-size:20px; }
 h5{font-size:18px}
 h6{font-size:16px}
 
+* {
+    box-sizing: border-box;
+  }
+  
+  /* columns and rows for project display */ 
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    vertical-align: middle; 
+  }
+  
+  .logo {
+    width: 25%;
+  }
+  
+  .description {
+    width: 50%;  
+  }
+  
+  /* Clear floats after the columns */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-
+  .contain {
+    object-fit: contain;
+  }
 
 
 /* W3.CSS 4.12 November 2018 by Jan Egil and Borge Refsnes */
