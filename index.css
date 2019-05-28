@@ -37,7 +37,7 @@
    .bar-item { 
     color: white; 
     font-weight: bold; 
-    font-size: 15px; 
+    font-size: 18px; 
     padding: 18px; 
    }
 
@@ -91,9 +91,9 @@
   .col-7 {width: 58.33%;}
   .col-8 {width: 66.66%;}
   .col-9 {width: 100%;}
-  .headline h2, .headline #inline { 
+  #headline h2, #headline p{ 
     display: inline;
-    vertical-align: middle;
+    vertical-align: bottom middle;
   }
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
