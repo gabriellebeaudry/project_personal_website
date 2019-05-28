@@ -1,117 +1,90 @@
 <!DOCTYPE html>
-<html lang = 'en'>
-<title> Gabrielle Beaudry </title>
+<html>
 <link rel="stylesheet" href="index.css">
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 
-<div class="navbar">  
-    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-center w3-hide-small">
-      <a href="#projects" class="bar-item">Projects</a>
-      <a href="#research" class="bar-item">Research</a>
-      <a href="#about" class="bar-item">About</a>
-      <a href="#contact" class="bar-item">Contact</a>
-    </div>
-    </div>
-    </div>
- 
-<header id="header"  >
-        <img class="gab_image" src="peru_crop.jpeg" alt="Image not displayed" width="1250" height="800" style="max-width:1500px;">
-        <div id = "gab_hello" class="w3-display-middle w3-margin-top w3-center">
-          <h1 id = "gab_hello">Hello! </h1>
-        </div>
-      </header>
-
-
-<!-- Page content -->
-
-<div class="gab_content" style="max-width:1250px">
-        <!-- About Section -->
-        <div class="w3-container w3-padding-32" id="about">
-          <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h2>
-          <p> I'm a technologist committed to a career in public interest. I plan on applying my skills in programming, mapping, and data analysis to social and environmental justice. 
-          </p>
-          <p> Linked In </p>
-        </div>
-        <!-- Project Section -->
-        <div class="w3-container w3-padding-32" id="projects">
-          <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h2>
-        </div>
-
-        <!-- Rows and Columns of Projects -->
-
-        <div class="row">
-          <div class="column logo" >
-            <h2></h2>
-            <img class="gab_image contain" src="endorsements_final_map_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:315px;"  >
-          </div>
-          <div class="column description">
-            <h3>Campaign Finance</h3>
-            <p>As a Summer of Maps Fellow at Azavea, I analyzed campaign finance data of ward politics in Philly. </p>
-
-            <p> Read my blog about how to clean campaign finance data <a href="https://www.azavea.com/blog/2018/09/20/cleaning-campaign-finance-data-r/">here</a> </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column logo" >
-            <h2></h2>
-            <img class="gab_image contain" src="lw_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:315px;"  >
-          </div>
-          <div class="column description">
-            <h3>Eviction Geography</h3>
-            <p> While at Azavea, I mapped and analyzed evictions between 2015 and 2018.  </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column logo" >
-            <h2></h2>
-            <img class="gab_image contain" src="endorsements_final_map_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:315px;"  >
-          </div>
-          <div class="column description">
-            <h3>Programming </h3>
-            <p> I've programmed abstract data types like linked lists, priority queues, binary search trees, splay trees and various sorting, searching and hashing algorithms in Java </p>
-            <p>In Python, I’ve written a program that indexes words from a text file of short stories and provides a search interface to query words and return the corresponding story titles and lines in which they appear. I’ve also used Python for data analysis using NumPy and pandas data structures. </p>
-          </div>
-        </div>
+<div class="header">
     
+            <h1 id="gab_hello">hello!</h1>
+            <img class="gab_image" src="peru_crop.jpeg" alt="Image not displayed" width="1250" height="800" >
+    </div>
+  
+<div class="row" id="row1">
+        <div class="col-9">
+                <div class="navbar">  
+                        <div class="w3-center w3-hide-small">
+                          <a href="#about" style= "text-decoration: none" class="bar-item">about me</a>
+                          <a href="#projects" style= "text-decoration: none"class="bar-item"> projects </a>
+                          <a href="#outdoors" style= "text-decoration: none"class="bar-item">outdoors </a>
+                          <a href="#travel" style= "text-decoration: none"class="bar-item">travel </a>
+                          <a href="#contact" style= "text-decoration: none"class="bar-item">contact</a>
+                        </div>
+                        </div>
+              </div>
+        <div class="col-9">
+                <img class="gab_image contain" id="arrow" src="Arrow.png" alt="Image not displayed" width="20" height="400" style="max-height:100px;"  >
+                <h2 id="about">about me </h2>
+                <p>Hi! I'm Gab. </p>
+                <p>I grew up in North Carolina, and went to school at UNC. I've studied environmental science, computer science, and information science. </p>
+                <p>I love maps and programming and plan to apply my technical skills to public service. </p>
 
- <!-- About Section -->
- <div class="w3-container w3-padding-32" id="research">
-        <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Research</h2>
-        <div class="column logo" >
-          <h2></h2>
-          <img class="gab_image contain" src="ghg_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:315px;"  >
-        </div>
-        <div class="column description">
-          <h3>Mitigating GHG Emissions in Oil Palm Biorefineries in Thailand </h3>
-          <p>This research was conducted at the KMUTT in Bangkok, Thailand where I lived for 7 months. </p>
-          <p>In Python, I’ve written a program that indexes words from a text file of short stories and provides a search interface to query words and return the corresponding story titles and lines in which they appear. I’ve also used Python for data analysis using NumPy and pandas data structures. </p>
-        </div>
-      </div>
+            </div>
+</div> 
+<div class="row" id="row2">
+        <div class="col-9">
+                <h2 id="projects">projects </h2>
+              </div>
+              <img class="gab_image contain" src="endorsements_final_map_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:250px;"  >
+              <img class="gab_image contain" src="lw_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:315px;"  >
+              <img class="gab_image contain" src="azavea_food_crop.png" alt="Image not displayed" width="937" height="715" style="max-width:500px;"  >
+              <img class="gab_image contain" src="ghg_logo.png" alt="Image not displayed" width="315" height="407.64" style="max-width:300px;"  >
+</div> 
 
-    
-        <!-- Contact Section -->
-     <!--  <div class="w3-container w3-padding-32" id="contact">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Let's talk! </h3>
-        <p></p>
-        <form action="/action_page.php" target="_blank">
-          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-          <button class="w3-button w3-black w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </form>
-      </div>  -->
-      
+<div class="row" id="row3">
+        <div class="col-9">
+                <h2 id="outdoors">outdoors </h2>
+              </div>
+              <img class="gab_image contain" src="obs_climbingphoto.jpg" alt="Image not displayed" width="640" height="960" style="max-width:200px;"  >
 
+</div> 
+<div class="row" id="row4">
+        <div class="col-9">
+                <h2 id="travel ">travel </h2>
+              </div>
+              <img class="gab_image contain" src="obs_climbingphoto.jpg" alt="Image not displayed" width="640" height="960" style="max-width:200px;"  >
+
+</div>
+
+<div class="row" id="row5">
+        <div class="col-9">
+                <h2 id="contact">contact </h2>
+                <p>linked in <a target="_blank" href="https://www.linkedin.com/in/gabrielle-beaudry/">here</a></p>
+
+              </div>
+
+</div> 
+
+
+
+
+<!-- <div class="col-3">
+  <ul>
+    <li>The Flight</li>
+    <li>The City</li>
+    <li>The Island</li>
+    <li>The Food</li>
+  </ul>
+</div> -->
+
+
+
+</div>
+
+
+
+</body>
 </html>
- 
