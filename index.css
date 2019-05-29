@@ -62,8 +62,14 @@
     left: 1%;
     /* transform: translate(-50%, -50%); */
   } 
-
-  
+  .slides {display:none;}
+  /* .button {
+    border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;  
+    position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)
+  } */
+  .button:hover { 
+    color:#000!important;background-color:#fff!important
+  } 
 
   .row::after {
     content: "";
